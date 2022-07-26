@@ -8,7 +8,7 @@ $('.btn').click(function(event){
         var ajxreq=$.ajax({ 
             type: "GET",
             enctype: 'multipart/form-data',
-            url: "https://fastapi-deploymen.herokuapp.com/messsage",
+            url: "https://fastapi-deploymen.herokuapp.com/message",
             data: data,
             processData: false,
             contentType: false,
