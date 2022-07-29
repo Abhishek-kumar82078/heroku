@@ -1,16 +1,11 @@
+
 from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware 
-import sys,os
+import os
 
 app=FastAPI()
 
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_credentials=True , allow_methods=["*"], allow_headers=["*"])
-
-# def create_file(self, name):
-#     path=f'{os.getcwd()}/file_folder/{name}'
-
-
-
 
 @app.post("/message")
 def message(upload_file: UploadFile =File(...)):
