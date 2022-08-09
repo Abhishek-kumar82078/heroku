@@ -28,23 +28,3 @@ def message(upload_file: UploadFile =File(...)):
 
     return upload_file.filename;
 
-# 'C:\\Web Development Folder New\\Heroku_fastapi\\heroku\\heroku\\backend', 
-# 'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python310\\python310.zip', 
-# 'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python310\\DLLs', 
-# 'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python310\\lib', 
-# 'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python310', 
-# 'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages', 
-# 'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\win32', 
-# 'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\win32\\lib', 
-# 'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Pythonwin
-
-# ['.', 
-# 'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\uvicorn.exe', 
-# 'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python310\\python310.zip', 
-# 'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python310\\DLLs', 
-# 'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python310\\lib', 
-# 'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python310',
-#  'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages', 
-#  'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\win32', 
-#  'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\win32\\lib', 
-#  'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Pythonwin']
