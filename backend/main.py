@@ -7,7 +7,7 @@ app=FastAPI()
 
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_credentials=True , allow_methods=["*"], allow_headers=["*"])
 
-# sys.path.append('C:\\Web Development Folder New\\Heroku_fastapi\\heroku\\heroku\\backend')
+sys.path.append('C:\\Web Development Folder New\\Heroku_fastapi\\heroku\\heroku\\backend')
 
 print(sys.path)
 
