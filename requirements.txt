@@ -1,5 +1,6 @@
-
+docx2txt
 bcrypt==3.2.0
+logging
 Django==4.0.6
 django-heroku==0.3.1
 fastapi==0.75.0
