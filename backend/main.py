@@ -1,7 +1,7 @@
 from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware 
 import os,sys
-from word2txt.word2txt_converter import convert_docx2txt
+from backend.word2txt.word2txt_converter import convert_docx2txt
 
 app=FastAPI()
 
